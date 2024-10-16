@@ -1,0 +1,98 @@
+@media (max-width:1199.98px){
+    .navbar-brand img {
+        max-width: 70px;
+    }
+    .navbar-brand span{
+        font-size: 20px;
+    }
+    .nav-item:not(:last-child) {
+        padding-right: 10px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:991.98px){
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        margin-left: auto;
+    }
+    .need-help .main-title .sec-head {
+        letter-spacing: 2px;
+        font-size: 44px;
+    }
+    .footer-sec .col-lg-3.col-md-6 {
+        margin-top: 30px;
+    }
+    .footer-sec .col-lg-4.col-md-6 {
+        margin-top: 30px;
+    }
+    .need-help .main-title .sec-head {
+        letter-spacing: 2px;
+        font-size: 36px;
+    }
+    .need-help .main-title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .contactus-btns {
+        margin-top: 22px;
+    }
+    .yellow-btn{
+        margin-bottom: 20px;
+    }
+    .choose-left h2{
+        font-size: 38px;
+    }
+    .choose-txt p {
+        color: #6e7070;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .choose-txt h4{
+        font-size: 22px;
+    }
+    .ftr-logoBox {
+        text-align: center;
+    }
+    .ftr-social {
+        justify-content: center;
+    }
+   
+
+}
+
+@media (max-width: 767.98px) {
+    .slider-content h1 span {
+        font-size: 35px;
+   }
+    .slider-content h1 {
+        font-size: 30px;
+        line-height: 43px;
+   }
+   .footer-sec .col-lg-2 .col-md-4 {
+        margin-top: 30px;
+    }
+    .mail-adrs a{
+        display: flex;
+    }
+    .navbar-brand img {
+        max-width: 50px;
+    }
+    .navbar-brand span {
+        font-size: 18px;
+    }
+    .navbar-brand span small {
+        font-size: 8px;
+        letter-spacing: -1px;
+        color: #000;
+    }
+}
+
+@media (min-width:768px){
+    .slider-height {
+        min-height: calc(100vh - 134px);
+    }
+}
+
